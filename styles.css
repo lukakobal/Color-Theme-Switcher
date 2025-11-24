@@ -1,0 +1,47 @@
+.app {
+  min-height: 100vh;
+  padding: 40px;
+  font-family: Arial, sans-serif;
+  transition: background 0.3s ease, color 0.3s ease;
+}
+
+/* gumbi */
+.buttons {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+button {
+  padding: 10px 18px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  background: #ddd;
+}
+
+button.active {
+  outline: 3px solid black;
+}
+
+/* TEME */
+.app.light {
+  background: white;
+  color: black;
+}
+
+.app.dark {
+  background: #1a1a1a;
+  color: white;
+}
+
+.app.blue {
+  background: #eaf2ff;
+  color: #003399;
+}
+
+.app.green {
+  background: #e9ffe9;
+  color: #006600;
+}
